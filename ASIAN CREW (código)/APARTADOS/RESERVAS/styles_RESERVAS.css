@@ -1,0 +1,118 @@
+
+*{
+    background-color: black;
+    color:#ddc780;
+}
+
+header {
+  background-color: transparent;
+  background-image: url(../../IMAGENES/Fondo.png);
+}
+
+.inicio {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.botones {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 18.5px;
+  color: #ddc780;
+  
+  display: flex;
+  align-items: center; 
+  background-color: transparent;
+}
+
+body {
+  background-image: url(../../IMAGENES/Fondo.png);
+}
+
+
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-image: url(../../IMAGENES/sushi.png);
+
+  border-radius: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 615px;
+}
+
+main section {
+  background-color: rgba(12, 12, 12, 0.414);
+  width: 500px;
+  
+  padding-bottom: 25px;
+}
+
+
+
+div {
+  background-color: transparent;
+  
+}
+
+div h2 {
+  background-color: transparent;
+}
+
+
+.boton-naranja {
+  background-color: #e9b24a94; /* Naranja */
+  color: white; /* Texto blanco */
+  padding: 12px 25px; /* Relleno (ajusta si lo deseas) */
+  border: none; /* Quitar el borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 1.1em; /* Tamaño de la fuente (ajusta si lo deseas) */
+  cursor: pointer; /* Cambiar el cursor a una mano */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  font-weight: bold; /* Texto en negrita */
+display: inline-block;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+
+.boton-naranja:hover {
+background-color: #f4c84e; /* Naranja un poco más oscuro al pasar el ratón */
+}
+.caja1{
+  background-color: transparent;
+  display: inline;
+  justify-content: center;
+  text-align: center;
+}
+
+
+input {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: #181818;
+  border-top: solid #ddc780 ;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+footer p {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}

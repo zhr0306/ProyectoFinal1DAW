@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESEÑAS</title>
+    <link rel="stylesheet" href="styles_RESEÑAS.css">
+</head>
+<body>
+
+    <header class="inicio">
+
+        <img src="../../IMAGENES/logo.png" alt="Logo" style="height: 150px; width: 150px;" usemap="#mapaLogo">
+
+        <map name="mapaLogo">
+            <area target="" alt="" title="Clic aquí para volver al inicio" href="../../index.html" coords="350,125,32,2" shape="rect">
+        </map>
+
+        <p class="botones" style="color: #ddc780;"> Reseñas </p>
+
+    </header> 
+
+
+    <main>
+
+        <div class="reseñas-container">
+            
+        
+    <!-- Ejemplo comentarios -->
+            <div class="comentario">
+                <div class="estrellas">★★★★★</div>
+                <p>¡La comida estuvo excelente y el servicio muy amable!</p>
+            </div>
+
+            <div class="comentario">
+                <div class="estrellas">★★★★☆</div>
+                <p>Muy buena experiencia, aunque tardaron un poco con los postres.</p>
+            </div>
+
+    <!-- Nueva reseña -->
+            <div class="formulario-reseña">
+
+            <h3>Deja tu reseña</h3>
+
+            <form>
+                <label for="comentario">Tu comentario:</label>
+                <textarea id="comentario" name="comentario" required></textarea>
+
+                <label>Tu puntuación:</label>
+                <div class="input-estrellas">
+                <input type="radio" id="estrella5" name="puntuacion" value="5">
+                <label for="estrella5" title="5 estrellas">★</label>
+                <input type="radio" id="estrella4" name="puntuacion" value="4">
+                <label for="estrella4" title="4 estrellas">★</label>
+                <input type="radio" id="estrella3" name="puntuacion" value="3">
+                <label for="estrella3" title="3 estrellas">★</label>
+                <input type="radio" id="estrella2" name="puntuacion" value="2">
+                <label for="estrella2" title="2 estrellas">★</label>
+                <input type="radio" id="estrella1" name="puntuacion" value="1">
+                <label for="estrella1" title="1 estrella">★</label>
+                </div>
+
+                <button type="submit">Enviar reseña</button>
+            </form>
+
+            </div>
+  
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p style="color: white;"> Dirección: <a href="" style="color: white; text-decoration: none;"> Desengaño 21</a> </p>
+        <p style="color: white;"> Teléfono: <a href="" style="color: white; text-decoration: none;"> +880 1630 225 015</a></p>
+        <p style="color: white;"> Correo electrónico: <a href="" style="color: white; text-decoration: none;"> asiancrew69@gmail.com</a></p>
+        <br>
+        <p style="color: white;"> © 2024-2025 Asian Crew. Todos los derechos reservados.</p>
+        <p style="color: white;"> <a href="" style="color: white; text-decoration: none;">Política de privacidad</a> | <a href="" style="color: white; text-decoration: none;">Términos y condiciones</a></p>
+
+    </footer>
+
+
+</body>
+</html>

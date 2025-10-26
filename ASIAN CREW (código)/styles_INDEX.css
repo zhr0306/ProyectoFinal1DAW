@@ -1,0 +1,232 @@
+
+*{
+    background-color: black;
+    color: #ddc780;
+    box-sizing: border-box;
+}
+
+
+
+/* PANTALLA 1: PRINCIPAL (header, nav e info) */
+
+header {
+    display: flex;                 
+    align-items: center;            
+    justify-content: space-between; 
+    padding: 0px 70px;
+    
+}
+
+
+.logo {
+    margin-left: 25px;
+    
+}
+
+
+nav {
+    display: flex;                  
+    margin-left: 30px;                      
+    align-items: center;   
+        
+}
+
+
+nav p {
+    margin: 30px;                       
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 20px 35px;              
+    font-size: 18.5px;
+    text-align: center;            
+}
+
+
+a {
+    text-align:justify;
+    text-decoration: none;
+}
+
+
+.info {
+    display: flex;                 
+    align-items: center;              
+}
+
+
+.general { 
+    font-size: 22px;
+    text-align: justify;
+    margin-right: 75px;
+}
+
+
+
+/* PANTALLA 2: REGISTRO DE USUARIOS */
+
+.user {
+    background-image: url(./IMAGENES/farolillos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100.55%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+    
+
+    flex-direction: column;
+    
+}
+
+
+.inicioYregistro {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    
+}
+
+
+.inicio_sesion, .registrarse {
+    padding: 20px;
+    background-color: transparent;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+form {
+    background-color: transparent;
+    width: 203.26px;
+    height: 300px;
+}
+
+
+
+/* PANTALLA 3: INFORMACIÓN EXTRA DEL RESTAURANTE */
+
+ .sobre_el_restaurante {
+    background-image: url(./IMAGENES/kois_dragon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1560px;
+    width: 100.55%;
+    padding: 0;
+    
+}
+
+
+.info2 {
+    justify-content: center;
+    background-color: transparent;
+    
+}
+
+
+.caracteristicas {
+    padding-top: 250px;
+    background-color: transparent;
+    text-align: justify;
+    margin-right: 605px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+.caracteristicas p, .caracteristicas ul, .caracteristicas li, .caracteristicas h2 {
+    background-color: transparent;
+    
+    
+}
+
+
+.historia {
+    padding-top: 300px ;
+    background-color: transparent;
+    text-align: right;
+    font-size: 24px;
+    margin-right: 30px;
+    margin-bottom: 0;
+
+}
+
+.historia p, .historia h2 {
+    background-color: transparent;
+} 
+
+
+
+/* PANTALLA 4: UBICACIÓN Y MÉTODOS DE CONTACTO */
+
+.contacto {
+    background-image: url(./IMAGENES/ciudad.png); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 110vh; 
+    width: 100.55%; 
+    padding: 0;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.ubiYcontacto {
+    background-color: transparent;
+    display: flex;
+    gap: 60px;
+}
+
+
+.ubi {
+    background-color: transparent;
+    margin-top: 110px;
+
+}
+
+.ubi p, .ubi img{
+    background-color: transparent;
+    font-size: 24px;
+} 
+
+
+.sobre_nosotros {
+    background-color: transparent;
+}
+
+.sobre_nosotros div {
+    display: flex;
+    background-color: transparent;
+
+}
+
+
+
+/* PANTALLA 5: FOOTER DE LA WEB */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    
+}
+
+.footer p {
+    margin: 2px 0;
+}
+

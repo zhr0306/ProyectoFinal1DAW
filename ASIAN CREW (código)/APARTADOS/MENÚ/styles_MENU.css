@@ -1,0 +1,214 @@
+
+
+*{
+  background-color: rgb(0, 0, 0);
+  color: black;
+
+}
+
+header {
+  background-image: url(../../IMAGENES/Fondo.png);
+}
+
+main {
+  background-image: url(../../IMAGENES/Fondo.png);
+}
+
+
+
+
+.inicio {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+
+.botones {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 18.5px;
+  color: #ddc780;
+  display: flex;
+  align-items: center; 
+  background-color: transparent;
+}
+
+
+
+/* Entrantes, platos principales...*/
+
+main section {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main section p:nth-child(1) {
+  font-size: 25px;
+  background-color: #ddc780;
+}
+
+main section p {
+  background-color: white;
+  font-size: 25px;
+  text-align: center;
+  border-right: solid black ;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main section a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+/* Fotos productos */
+
+main figure {
+  display: flex;
+  justify-content: space-evenly;
+  
+  margin-left: 160px;
+  margin-right: 160px;
+
+  flex-wrap: wrap;
+}
+
+.flecha {
+  width: 35px;
+  height: 35px;
+  margin-top: 200px;
+}
+
+main img {
+  max-width: 293px;
+}
+
+figcaption {
+  display: flex;
+  margin-top: 480px;
+  justify-content: center;
+}
+
+figcaption p {
+  color: #ddc780;
+  background-color: transparent;
+  font-size: 25px;
+}
+
+
+/* Animación fotos */
+
+.front, .back, .container {
+    width: 320px;
+    height: 480px;
+  }
+  
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    transition: all 0.3s linear;
+  }
+  
+  .back {
+    transition: all 0.3s linear;
+    transform: rotateY(180deg);
+  }
+  
+  .container {
+    position: relative;
+    width: 293px;
+    height: 550px;
+  }
+  
+  .container:hover .front {
+    transform: rotateY(180deg);
+  }
+  
+  .container:hover .back {
+    transform: rotateY(360deg);
+  }
+
+
+/* Botón */
+
+main form {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  
+}
+
+
+
+
+
+
+footer {
+  background-color: rgba(105, 105, 105, 0.229);
+  border-top: solid #ddc780 ;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  
+  main section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main section p {
+    width: 50%;
+    border-right: none;
+
+  }
+
+  main figure {
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+}
